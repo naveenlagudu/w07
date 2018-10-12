@@ -1,0 +1,65 @@
+<% include header %>
+<body>
+<div class="col1">
+  <div id="header">    
+    <div>       
+        <img src="/images/Naveen Laudu.jpg" class="img-circle" alt="profile pic" style="float: right"/>
+      <h1> 
+        CONTACT </h1>
+    </div>
+  
+    <div id="topnav">
+      
+      <ul>                 
+        
+        <li class="active" ><a href="/contact">CONTACT</a></li>
+        <li ><a href="/profile">CALCULATOR</a></li>
+        <li ><a href="/">HOME</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+
+<div style="background-image:url('/images/bg.jpg')"  class="wrapper col2">
+        <div id="intro">
+          <div class="fl_left">
+            
+                <form action="/action_page.php">
+                  <label>Contact info:</label> <br>
+                    
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select>
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                      </form>
+                    </div>
+                    <div>
+                      
+                      <label>     Connect me on: </label>
+                        <a href="https://github.com/naveenlagudu"><img alt="GIT" class="icons" src="/images/download.png"   /></a>
+                        
+                        <a href="https://bitbucket.org/naveenlagudu/"><img class="icons" alt="bit bucket" src="/images/download (1).png"/></a>
+                        <a href="https://www.facebook.com/naveen.amar1"><img class="icons" alt="bit bucket" src="/images/fb.png"/> </a>
+                        <a href="https://www.linkedin.com/in/naveen-lagudu-476a49149/"><img class="icons" alt="bit bucket" src="/images/download (2).png"/></a>
+                        <a href="https://www.instagram.com/naveen_lagudu53/"><img alt="Instagram" class="icons" src="/images/instagram.jpg"/></a>
+          <br class="clear" />
+        </div>
+       
+</div>
+</div>   
+<% include footer %>
